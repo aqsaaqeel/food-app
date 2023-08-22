@@ -1,9 +1,10 @@
-import { Homepage } from "./components";
+import { AboutSection, Homepage } from "./components";
 import "./App.css"
 function App() {
   return (
     <div className="App">
       <Homepage />
+      <AboutSection />
     </div>
   );
 }

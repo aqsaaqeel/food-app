@@ -1,0 +1,13 @@
+.about-container {
+  /* width: 100%; */
+  margin-top: 9.37rem;
+  display: flex;
+  padding: 0 12.813rem;
+  column-gap: 12.5rem;
+}
+.about-image {
+  width: 24rem; 
+  height: 29.25rem; 
+  top: 61.8125rem; 
+  left: 12.8125rem; 
+}
