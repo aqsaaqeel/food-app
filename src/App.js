@@ -1,4 +1,4 @@
-import { AboutSection, CardSection, Homepage } from "./components";
+import { AboutSection, CardSection, Footer, Homepage } from "./components";
 import "./App.css"
 function App() {
   return (
@@ -6,6 +6,7 @@ function App() {
       <Homepage />
       <AboutSection />
       <CardSection />
+      <Footer />
     </div>
   );
 }

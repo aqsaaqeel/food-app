@@ -1,4 +1,4 @@
-import { Card } from "../Card/Card";
+import { Card } from "../card/Card";
 import "./CardSection.css";
 
 export const CardSection = () => {
