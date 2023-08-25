@@ -56,3 +56,33 @@
   position: absolute;
   right: 0;
 }
+@media (max-width: 768px){
+  .homepage-container{
+    display: flex;
+    flex-direction: column-reverse;
+    min-width: 768px;
+  }
+  .curve-image{
+    top: 0;
+    left: 0;
+  }
+  .truck-image{
+    display: none;
+  }
+  .text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-container{
+    padding: 0;
+  }
+  .main-heading{
+    top: 0;
+    left:0;
+    text-align: center;
+  }
+  .small-text{
+    text-align: center;
+  }
+}

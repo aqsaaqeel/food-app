@@ -54,3 +54,21 @@
     width: 14.5rem;
     height: 11.625rem;
   }
+@media  screen and (max-width: 768px) {
+  .footer-container{
+    min-width: 768px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    row-gap: 4rem;
+    padding: 2rem;
+  }
+  .footer-image{
+    margin: auto;
+  }
+  .footer-mediacontainer{
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+}

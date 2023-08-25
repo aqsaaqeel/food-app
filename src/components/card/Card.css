@@ -57,4 +57,13 @@
       max-width: 23.8125rem; /* Limit the width on larger screens */
     }
   }
+
+  @media (min-width: 768px) {
+    .card-container {
+      width: 100%; /* Make the card full width */
+      width: 20.8125rem;
+      height: fit-content;
+      padding: 1rem; 
+    }
+  }
   

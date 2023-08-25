@@ -42,3 +42,12 @@ button {
   text-align: left;
   color: #424961;
 }
+
+@media (max-width: 768px){
+  .cards-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  
+}

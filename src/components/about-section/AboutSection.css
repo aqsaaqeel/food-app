@@ -50,3 +50,23 @@
   border-radius: 21px;
   gap: 10px;
 }
+@media (max-width: 768px){
+  .about-image{
+    display: none;
+  }
+  .about-container{
+    min-width: 768px;
+    column-gap:0;
+    padding: 0 0;
+    display: flex;
+  }
+  .about-text-container{
+    /* padding: 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-heading,.about-details{
+    text-align: center;
+  }  
+}
