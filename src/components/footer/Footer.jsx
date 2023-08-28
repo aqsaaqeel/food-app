@@ -3,7 +3,9 @@ import "./Footer.css";
 export const Footer = () => {
   return (
     <footer className="footer-container">
-      <img className="footer-image" src="images/food-truck.png" alt="truck" />
+      <div className="footer-image-container">
+        <img className="footer-image" src="images/food-truck.png" alt="truck" />
+      </div>
       <div className="footer-subcontainer">
         <p className="footer-subheading">Contact Us</p>
         <p className="footer-text">

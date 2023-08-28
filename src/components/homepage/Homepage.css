@@ -58,16 +58,18 @@
   position: absolute;
   right: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1214px) {
   .pizza-image {
     top: 0;
     left: 0;
     right: 0;
+    width: 100%;
   }
   .curve-image {
     position: absolute;
     right: 0;
     left: 0;
+    width: 100%;
   }
   .homepage-container {
     display: flex;
@@ -76,6 +78,7 @@
   }
   .left-container {
     width: 100%;
+    padding: 0;
   }
   .curve-image {
     top: 0;
@@ -99,6 +102,9 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .left-container{
+    padding: 0;
+  }
   .small {
     display: block;
   }
