@@ -7,13 +7,16 @@
   /* You may not need these positioning properties here */
 }
 .cardsection-container {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
   padding: 9.875rem 6.75rem;
 }
 .cards-container {
   display: flex;
+  width: 100%;
   column-gap: 2.563rem;
+  /* flex-wrap: wrap; */
+  row-gap: 2rem;
+
 }
 .next-buttons {
   display: flex;
@@ -40,12 +43,46 @@ button {
   text-align: left;
   color: #424961;
 }
-
+@media (min-width: 1342px) {
+  .cards-container{
+    /* column-gap: 2rem; */
+  }
+}
+@media screen and (max-width: 1300px){
+  .cards-container {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+  
+  }
+}
 @media (max-width: 768px){
   .cards-container{
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
   }
-  
+  .cardsection-container{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cardsection-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13.5rem;
+    height: 3.375rem;
+    top: 91rem;
+    left: 5rem;
+    font-family: "Poppins";
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 3.375rem;
+    letter-spacing: 0.0025rem;
+    text-align: left;
+  }
 }
