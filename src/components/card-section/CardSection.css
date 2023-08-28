@@ -24,8 +24,6 @@
 .button {
   width: 1.75rem;
   height: 1.8125rem;
-  top: 147.3125rem; /* 2357px / 16px */
-  left: 41.4375rem; /* 663px / 16px */
 }
 button {
   all: unset;

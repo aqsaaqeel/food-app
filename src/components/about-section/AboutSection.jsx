@@ -12,7 +12,8 @@ export const AboutSection = () => {
           scrambled it to make a type specimen book. t has survived not only
           five centuries.
         </p>
-        <img className="about-button" src="images/readmore-s-red.png" alt="red button"/>
+        <button className="about-button">Read More</button>
+        {/* <img className="about-button" src="images/readmore-s-red.png" alt="red button"/> */}
       </div>
     </div>
   );

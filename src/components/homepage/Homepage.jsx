@@ -24,8 +24,10 @@ export const Homepage = () => {
         </div>
       </section>
       <section className="right-container">
-        <img className="pizza-image" src="images/pizza.png" alt="pizza" />
-        <img className="curve-image" src="images/curve.png" alt="curve" />
+        <img className="pizza-image big" src="images/pizza.png" alt="pizza" />
+        <img className="curve-image big" src="images/curve.png" alt="curve" />
+        <img className="pizza-image small" src="images/small-pizza.png" alt="pizza" />
+        <img className="curve-image small" src="images/small-curve.png" alt="curve" />
       </section>
     </div>
   );

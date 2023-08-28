@@ -7,9 +7,11 @@ export const Card = () => {
       <h2 className="card-heading">Grilled Tomatoes at Home</h2>
       <p className="card-details">
         PLorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard...
+        industry. Lorem Ipsum has been the industry's standard<span> dummy text ever
+        since the 1500s, when an unknown printer took a galley....</span>
       </p>
-      <img className="card-button" src="images/card-button.png" alt="button" />
+      <div className="button-container">
+      <button className="card-button">Read More</button></div>
     </div>
   );
 };
