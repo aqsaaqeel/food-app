@@ -46,8 +46,8 @@ export const CardSection = () => {
     <div className="cardsection-container">
       <h1 className="cardsection-heading">Latest Articles</h1>
       <div className="cards-container">
-        {cardsOnDisplay.map((i) => (
-          <Card image = {i.image} heading= {i.heading}/>
+        {cardsOnDisplay.map((i, index) => (
+          <Card key={index} image = {i.image} heading= {i.heading}/>
         ))}
       </div>
       <div className="next-buttons">
