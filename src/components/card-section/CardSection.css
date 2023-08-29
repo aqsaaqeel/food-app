@@ -7,8 +7,10 @@
   /* You may not need these positioning properties here */
 }
 .cardsection-container {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  padding: 9.875rem 6.75rem;
+  padding: 9.875rem 0 9.875rem 3.75rem;
 }
 .cards-container {
   display: flex;
